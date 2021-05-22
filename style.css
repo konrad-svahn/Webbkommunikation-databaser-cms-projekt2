@@ -1,0 +1,13 @@
+/*
+Theme Name: child theme
+Theme URI:  https://cgi.arcada.fi/~svahnkon/wordpress-5.7.2/wordpress/
+description: Our awesome theme.
+Author: svahnkon
+Author URI:
+Template: twentytwenty
+Version: 2021.5.5
+Text Domain: arcada-child-theme
+*/
+
+
+body{background-color: black;}
