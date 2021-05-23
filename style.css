@@ -9,5 +9,13 @@ Version: 2021.5.5
 Text Domain: arcada-child-theme
 */
 
+#site-header{background-color: rgb(9, 80, 231);}
 
-body{background-color: black;}
+body{background-color: rgb(219, 27, 27);}
+
+.footer-nav-widgets-wrapper{
+    background-color: #fff ;
+}    
+
+#karta{height: 500px;}
+.gridcontainer{height: 500px;}
