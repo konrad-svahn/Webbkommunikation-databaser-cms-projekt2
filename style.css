@@ -12,12 +12,15 @@ Text Domain: arcada-child-theme
 #site-header{background-color: rgb(145, 8, 8);}
 
 body{background-color: rgb(219, 27, 27);}
+.entry-content{background-color: rgb(228, 194, 194);}
+#post-33{background-color: rgb(228, 194, 194);}
+#post-31{background-color: rgb(228, 194, 194);}
 .entry-header.has-text-align-center.header-footer-group{background-color: rgb(192, 8, 8);}
 
 
 
 .footer-nav-widgets-wrapper{
-    background-color: #fff ;
+    background-color: rgb(255, 255, 255) ;
 }    
 
 #karta{height: 500px;}

@@ -65,5 +65,25 @@ function pc_custom_footer() {
 
         /*<div class="gridcontainer">
         <iframe  id="karta" src="https://www.openstreetmap.org/export/embed.html?bbox=24.98248100280762%2C60.178553544118714%2C25.00393867492676%2C60.18638503121964&amp;layer=mapnik&amp;marker=60.18246952114209%2C24.993209838867188" style="border: 1px solid black"></iframe>
-        </div>*/      
+        </div>*/  
+        
+        
+
+//läger till google analyticks tagg koden är kopierad från https://developers.google.com/analytics/devguides/collection/analyticsjs        
+add_action( 'wp_head', 'pc_custom_H' );
+ 
+function pc_custom_H() {
+	echo "<!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    "
+        ;}
  ?>
