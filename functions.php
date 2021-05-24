@@ -22,14 +22,11 @@ function mychildtheme_enqueue_styles() {
 
 
 	
-//koden nedan kommer delvis från https://presscoders.com/wordpress-theme-customization-guide/ men jag har gort ändringar i den                 <script src="./script.js"></script>
+//koden nedan kommer delvis från https://presscoders.com/wordpress-theme-customization-guide/ men jag har gort ändringar i den (alting som skrivs ut av echo är mitt och fins i en wiget på sidan)                <script src="./script.js"></script>
 add_action( 'wp_footer', 'pc_custom_footer' );
  
 function pc_custom_footer() {
-	echo '<img width="165" height="300" src="https://cgi.arcada.fi/~svahnkon/wordpress-5.7.2/wordpress/wp-content/uploads/2021/05/gas-165x300.png" class="image wp-image-21  attachment-medium size-medium" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://cgi.arcada.fi/~svahnkon/wordpress-5.7.2/wordpress/wp-content/uploads/2021/05/gas-165x300.png 165w, https://cgi.arcada.fi/~svahnkon/wordpress-5.7.2/wordpress/wp-content/uploads/2021/05/gas.png 241w" sizes="(max-width: 165px) 100vw, 165px">
-    <script>
-    
-    </script>'
+	echo '<script src="./script.js"></script>'
         ;}
 
 
@@ -41,11 +38,11 @@ function pc_custom_footer() {
         /*<form action="mailto:svahnkon@arcada.fi" method="POST" enctype="text/plain">
             <table>
                 <tr>
-                        <td> <label for="fname">förnamn:</label>
+                        <td> <label for="fname">first name:</label>
                         <input type="text" id="fname" name="fname"></td>
                 </tr>
                 <tr>
-                        <td><label for="lname">efternam:</label>
+                        <td><label for="lname">lastname:</label>
                         <input type="text" id="lname" name="lname"></td>
                 </tr>
                 <tr>
@@ -53,8 +50,8 @@ function pc_custom_footer() {
                     <input type="text" id="email" name="email"></td>
                 </tr>
                 <tr>
-                        <td><label for="message">email lösenord</label>
-                        <input type="password" id="message" name="message"></td>
+                        <td><label for="message">message</label>
+                        <input type="text" id="message" name="message"></td>
                 </tr>
                 <tr>
                  <td><input type="submit" value="skika"> </td>

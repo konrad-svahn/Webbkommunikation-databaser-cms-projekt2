@@ -9,9 +9,12 @@ Version: 2021.5.5
 Text Domain: arcada-child-theme
 */
 
-#site-header{background-color: rgb(9, 80, 231);}
+#site-header{background-color: rgb(145, 8, 8);}
 
 body{background-color: rgb(219, 27, 27);}
+.entry-header.has-text-align-center.header-footer-group{background-color: rgb(192, 8, 8);}
+
+
 
 .footer-nav-widgets-wrapper{
     background-color: #fff ;
@@ -19,3 +22,5 @@ body{background-color: rgb(219, 27, 27);}
 
 #karta{height: 500px;}
 .gridcontainer{height: 500px;}
+
+#con{min-height: 350px; }
